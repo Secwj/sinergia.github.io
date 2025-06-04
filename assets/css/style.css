@@ -371,6 +371,7 @@ main {
 }
 
 @media screen and (max-width:800px) {
+
     .logo-landing > img {
         max-width: 500px;
         width: 100%;
@@ -381,32 +382,32 @@ main {
         
     }
     .info-landing {
-        margin-bottom: 100px;
+        margin-bottom: 80px;
     }
     .title-landing {
         view-timeline: --cajita block;
         animation: appear-info-landing 0.3s linear both;
-        animation-timeline: scroll();
-        animation-range-start: contain 0%;
-        animation-range-end: contain 100%;
+        animation-timeline: view();
+        animation-range-start: contain 20%;
+        animation-range-end: contain 40%;
     }
     .text-landing {
         view-timeline: --cajita block;
         animation: appear-info-landing 3s linear both;
-        animation-timeline: scroll();
-        animation-range-start: contain 0%;
-        animation-range-end: contain 100%;
+        animation-timeline: view();
+        animation-range-start: contain 20%;
+        animation-range-end: contain 40%;
     }
     .container-btn {
         view-timeline: --cajita block;
         animation: appear-info-landing 3s linear both;
-        animation-timeline: scroll();
-        animation-range-start: contain 0%;
-        animation-range-end: contain 100%;
-        animation-delay: 3s;
+        animation-timeline: view();
+        animation-range-start: contain 20%;
+        animation-range-end: contain 20%;
     }
     .container-logos {
         width: 90%;
+        margin-top: 90px;
     }
 }
 
