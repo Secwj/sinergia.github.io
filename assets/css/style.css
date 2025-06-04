@@ -388,21 +388,21 @@ main {
         animation: appear-info-landing 0.3s linear both;
         animation-timeline: scroll();
         animation-range-start: contain 0%;
-        animation-range-end: contain 40%;
+        animation-range-end: contain 100%;
     }
     .text-landing {
         view-timeline: --cajita block;
         animation: appear-info-landing 3s linear both;
         animation-timeline: scroll();
-        animation-range-start: contain 20%;
-        animation-range-end: contain 40%;
+        animation-range-start: contain 0%;
+        animation-range-end: contain 100%;
     }
     .container-btn {
         view-timeline: --cajita block;
         animation: appear-info-landing 3s linear both;
         animation-timeline: scroll();
         animation-range-start: contain 0%;
-        animation-range-end: contain 80%;
+        animation-range-end: contain 100%;
         animation-delay: 3s;
     }
     .container-logos {
